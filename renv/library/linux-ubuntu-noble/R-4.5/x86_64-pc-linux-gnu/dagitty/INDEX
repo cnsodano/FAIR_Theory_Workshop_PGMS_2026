@@ -1,0 +1,48 @@
+AncestralRelations      Ancestral Relations
+EquivalentModels        Generating Equivalent Models
+VariableStatus          Variable Statuses
+adjustmentSets          Covariate Adjustment Sets
+ancestorGraph           Ancestor Graph
+as.dagitty              Convert to DAGitty object
+backDoorGraph           Back-Door Graph
+canonicalize            Canonicalize an Ancestral Graph
+completeDAG             Generate Complete DAG
+convert                 Convert from DAGitty object to other graph
+                        types
+coordinates             Plot Coordinates of Variables in Graph
+dagitty                 Parse DAGitty Graph
+dconnected              d-Separation
+downloadGraph           Load Graph from dagitty.net
+edges                   Graph Edges
+exogenousVariables      Retrieve Exogenous Variables
+getExample              Get Bundled Examples
+graphLayout             Generate Graph Layout
+graphType               Get Graph Type
+impliedConditionalIndependencies
+                        List Implied Conditional Independencies
+impliedCovarianceMatrix
+                        Implied Covariance Matrix of a Gaussian
+                        Graphical Model
+instrumentalVariables   Find Instrumental Variables
+is.dagitty              Test for Graph Class
+isAcyclic               Test for Cycles
+isAdjustmentSet         Adjustment Criterion
+isCollider              Test for Colliders
+lavaanToGraph           Convert Lavaan Model to DAGitty Graph
+localTests              Test Graph against Data
+measurementPart         Extract Measurement Part from Structural
+                        Equation Model
+moralize                Moral Graph
+names.dagitty           Names of Variables in Graph
+orientPDAG              Orient Edges in PDAG.
+paths                   Show Paths
+plot.dagitty            Plot Graph
+plotLocalTestResults    Plot Results of Local Tests
+randomDAG               Generate DAG at Random
+simulateLogistic        Simulate Binary Data from DAG Structure
+simulateSEM             Simulate Data from Structural Equation Model
+structuralPart          Extract Structural Part from Structural
+                        Equation Model
+toMAG                   Convert DAG to MAG.
+topologicalOrdering     Get Topological Ordering of DAG
+vanishingTetrads        List Implied Vanishing Tetrads

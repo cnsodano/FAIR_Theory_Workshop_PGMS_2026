@@ -1,0 +1,74 @@
+BCH                     Estimate an Auxiliary Model using the BCH
+                        Method
+BLRT                    Conduct Bootstrapped Likelihood Ratio Test
+add_paths               Add paths to an object of class 'tidy_sem'
+alkema_microplastics    Ocean Microplastics Data
+append_class_draws      Append Pseudo-class Draws
+as_lavaan               Convert tidy_sem to 'lavaan' syntax
+as_mplus                Convert tidy_sem to 'Mplus' syntax
+as_ram                  Convert lavaan syntax to RAM specification
+class_prob              Obtain latent class probabilities
+conf_int                Format confidence intervals
+cors                    Generate syntax for correlations
+create_scales           Create scale scores from observed variables
+curry_mac               Simulated MAC data
+data_mix_ordinal        Simulated data for mixture model with ordinal
+                        indicators
+descriptives            Describe a dataset
+dictionary              Extract dictionary from tidy_sem
+edges                   Extract edges from sem_graph
+edit_graph              Edit graph elements
+empathy                 Simulated empathy data
+est_sig                 Add significance asterisks to object
+estimate_lavaan         Estimate tidy_sem using 'lavaan'
+estimate_mplus          Estimate tidy_sem using 'Mplus'
+estimate_mx             Estimate tidy_sem using 'OpenMx'
+get_data                Extract data from tidy_sem
+get_edges               Extract edges from a SEM model object
+get_fit                 Get fit indices from objects
+get_layout.lavaan       Generate graph layout
+get_nodes               Extract nodes from a SEM model object
+graph_sem.dagitty       Render a graph
+ic_weights              Compare Information Criteria
+if_edit                 Conditionally edit a sem_graph object
+lr_lmr                  Lo-Mendell-Rubin Likelihood Ratio Test
+lr_test                 Conduct Likelihood Ratio tests
+lsub                    Apply pattern replacement over a vector
+maene_identity          National Identity, Discrimination and
+                        Depression
+measurement             Generate syntax for a measurement model
+mixture_starts          Automatically set starting values for an OpenMx
+                        mixture model
+mplus_expand_names      Expand abbreviated Mplus variable names
+mx_data_quantiles       Data Quantiles
+mx_dummies              Dummy Code Factor Variables
+mx_growth_mixture       Estimate growth mixture models using OpenMx
+mx_lca                  Estimate latent class analyses using OpenMx
+mx_mixed_lca            Estimate mixed data latent class analysis using
+                        OpenMx
+mx_mixture              Estimate mixture models using OpenMx
+mx_profiles             Estimate latent profile analyses using OpenMx
+mx_switch_labels        Switch LCA Class Labels
+nodes                   Extract nodes from sem_graph
+paste2                  Concatenate Strings while omitting NA
+plas_depression         Simulated depression data
+plot_bivariate          Create correlation plots for a mixture model
+plot_density            Create density plots for mixture models
+plot_prob               Plot categorical variable probabilities
+plot_profiles           Create latent profile plots
+pmc_srmr                Predictive Model Comparison
+predict_class           Predict Class Membership
+prepare_graph.dagitty   Prepare graph data
+pseudo_class            Estimate an Auxiliary Model using the
+                        Pseudo-Class Method
+run_lavaan              Run as lavaan model
+run_mx                  Run as OpenMx model with sensible defaults
+skew_kurtosis           Calculate skew and kurtosis
+syntax                  Extract syntax from tidy_sem
+table_cors              Extract correlation tables
+table_fit               Print model fit table formatted for publication
+table_prob              Results table in probability scale
+table_results           Print results table formatted for publication
+tidy_sem                Create a tidy_sem object
+wald_test               Wald Test for Linear Hypotheses
+zegwaard_carecompass    Caregiver Compass Data

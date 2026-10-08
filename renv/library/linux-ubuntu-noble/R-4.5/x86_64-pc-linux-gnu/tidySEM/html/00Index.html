@@ -1,0 +1,1117 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Tidy Structural Equation Modeling</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Tidy Structural Equation Modeling
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;tidySEM&rsquo; version 0.2.10</h2>
+
+<ul><li><a href="../DESCRIPTION" type="text/plain; charset=utf-8">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#W">W</a>
+<a href="#Z">Z</a>
+</p>
+
+
+<h2><a id="A">-- A --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="add_paths.html">add_paths</a></td>
+<td>Add paths to an object of class 'tidy_sem'</td></tr>
+<tr><td style="width: 25%;"><a href="alkema_microplastics.html">alkema_microplastics</a></td>
+<td>Ocean Microplastics Data</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">all_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">alpha_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="append_class_draws.html">append_class_draws</a></td>
+<td>Append Pseudo-class Draws</td></tr>
+<tr><td style="width: 25%;"><a href="as_lavaan.html">as_lavaan</a></td>
+<td>Convert tidy_sem to 'lavaan' syntax</td></tr>
+<tr><td style="width: 25%;"><a href="as_mplus.html">as_mplus</a></td>
+<td>Convert tidy_sem to 'Mplus' syntax</td></tr>
+<tr><td style="width: 25%;"><a href="as_ram.html">as_ram</a></td>
+<td>Convert lavaan syntax to RAM specification</td></tr>
+</table>
+
+<h2><a id="B">-- B --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="BCH.html">BCH</a></td>
+<td>Estimate an Auxiliary Model using the BCH Method</td></tr>
+<tr><td style="width: 25%;"><a href="BLRT.html">BLRT</a></td>
+<td>Conduct Bootstrapped Likelihood Ratio Test</td></tr>
+</table>
+
+<h2><a id="C">-- C --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="class_prob.html">class_prob</a></td>
+<td>Obtain latent class probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">color_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">colour_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="conf_int.html">conf_int</a></td>
+<td>Format confidence intervals</td></tr>
+<tr><td style="width: 25%;"><a href="cors.html">cors</a></td>
+<td>Generate syntax for correlations</td></tr>
+<tr><td style="width: 25%;"><a href="create_scales.html">create_scales</a></td>
+<td>Create scale scores from observed variables</td></tr>
+<tr><td style="width: 25%;"><a href="create_scales.html">create_scales.tidy_sem</a></td>
+<td>Create scale scores from observed variables</td></tr>
+<tr><td style="width: 25%;"><a href="curry_mac.html">curry_mac</a></td>
+<td>Simulated MAC data</td></tr>
+</table>
+
+<h2><a id="D">-- D --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="data_mix_ordinal.html">data_mix_ordinal</a></td>
+<td>Simulated data for mixture model with ordinal indicators</td></tr>
+<tr><td style="width: 25%;"><a href="descriptives.html">descriptives</a></td>
+<td>Describe a dataset</td></tr>
+<tr><td style="width: 25%;"><a href="dictionary.html">dictionary</a></td>
+<td>Extract dictionary from tidy_sem</td></tr>
+<tr><td style="width: 25%;"><a href="dictionary.html">dictionary&lt;-</a></td>
+<td>Extract dictionary from tidy_sem</td></tr>
+</table>
+
+<h2><a id="E">-- E --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="edges.html">edges</a></td>
+<td>Extract edges from sem_graph</td></tr>
+<tr><td style="width: 25%;"><a href="edges.html">edges&lt;-</a></td>
+<td>Extract edges from sem_graph</td></tr>
+<tr><td style="width: 25%;"><a href="edit_graph.html">edit_edges</a></td>
+<td>Edit graph elements</td></tr>
+<tr><td style="width: 25%;"><a href="edit_graph.html">edit_graph</a></td>
+<td>Edit graph elements</td></tr>
+<tr><td style="width: 25%;"><a href="edit_graph.html">edit_nodes</a></td>
+<td>Edit graph elements</td></tr>
+<tr><td style="width: 25%;"><a href="empathy.html">empathy</a></td>
+<td>Simulated empathy data</td></tr>
+<tr><td style="width: 25%;"><a href="estimate_lavaan.html">estimate_lavaan</a></td>
+<td>Estimate tidy_sem using 'lavaan'</td></tr>
+<tr><td style="width: 25%;"><a href="estimate_mplus.html">estimate_mplus</a></td>
+<td>Estimate tidy_sem using 'Mplus'</td></tr>
+<tr><td style="width: 25%;"><a href="estimate_mx.html">estimate_mx</a></td>
+<td>Estimate tidy_sem using 'OpenMx'</td></tr>
+<tr><td style="width: 25%;"><a href="est_sig.html">est_sig</a></td>
+<td>Add significance asterisks to object</td></tr>
+</table>
+
+<h2><a id="F">-- F --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">fill_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+</table>
+
+<h2><a id="G">-- G --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="get_data.html">get_data</a></td>
+<td>Extract data from tidy_sem</td></tr>
+<tr><td style="width: 25%;"><a href="get_data.html">get_data&lt;-</a></td>
+<td>Extract data from tidy_sem</td></tr>
+<tr><td style="width: 25%;"><a href="get_edges.html">get_edges</a></td>
+<td>Extract edges from a SEM model object</td></tr>
+<tr><td style="width: 25%;"><a href="get_fit.html">get_fit</a></td>
+<td>Get fit indices from objects</td></tr>
+<tr><td style="width: 25%;"><a href="get_layout.html">get_layout</a></td>
+<td>Generate graph layout</td></tr>
+<tr><td style="width: 25%;"><a href="get_layout.html">get_layout.default</a></td>
+<td>Generate graph layout</td></tr>
+<tr><td style="width: 25%;"><a href="get_layout.html">get_layout.lavaan</a></td>
+<td>Generate graph layout</td></tr>
+<tr><td style="width: 25%;"><a href="get_nodes.html">get_nodes</a></td>
+<td>Extract nodes from a SEM model object</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.character</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.dagitty</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.default</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.igraph</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.lavaan</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.mplus.model</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.mplusObject</a></td>
+<td>Render a graph</td></tr>
+<tr><td style="width: 25%;"><a href="graph_sem.html">graph_sem.MxModel</a></td>
+<td>Render a graph</td></tr>
+</table>
+
+<h2><a id="H">-- H --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">hide_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+</table>
+
+<h2><a id="I">-- I --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="ic_weights.html">ic_weights</a></td>
+<td>Compare Information Criteria</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">if_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">if_edit</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">if_edit.sem_graph</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">if_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+</table>
+
+<h2><a id="L">-- L --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_alpha_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_color_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_colour_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_family_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fill_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_fontface_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_hjust_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_lineheight_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_location_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_size_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">label_vjust_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">linetype_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="lr_lmr.html">lr_lmr</a></td>
+<td>Lo-Mendell-Rubin Likelihood Ratio Test</td></tr>
+<tr><td style="width: 25%;"><a href="lr_test.html">lr_test</a></td>
+<td>Conduct Likelihood Ratio tests</td></tr>
+<tr><td style="width: 25%;"><a href="lsub.html">lsub</a></td>
+<td>Apply pattern replacement over a vector</td></tr>
+</table>
+
+<h2><a id="M">-- M --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="maene_identity.html">maene_identity</a></td>
+<td>National Identity, Discrimination and Depression</td></tr>
+<tr><td style="width: 25%;"><a href="measurement.html">measurement</a></td>
+<td>Generate syntax for a measurement model</td></tr>
+<tr><td style="width: 25%;"><a href="mixture_starts.html">mixture_starts</a></td>
+<td>Automatically set starting values for an OpenMx mixture model</td></tr>
+<tr><td style="width: 25%;"><a href="mplus_expand_names.html">mplus_expand_names</a></td>
+<td>Expand abbreviated Mplus variable names</td></tr>
+<tr><td style="width: 25%;"><a href="mx_data_quantiles.html">mx_data_quantiles</a></td>
+<td>Data Quantiles</td></tr>
+<tr><td style="width: 25%;"><a href="mx_dummies.html">mx_dummies</a></td>
+<td>Dummy Code Factor Variables</td></tr>
+<tr><td style="width: 25%;"><a href="mx_growth_mixture.html">mx_growth_mixture</a></td>
+<td>Estimate growth mixture models using OpenMx</td></tr>
+<tr><td style="width: 25%;"><a href="mx_lca.html">mx_lca</a></td>
+<td>Estimate latent class analyses using OpenMx</td></tr>
+<tr><td style="width: 25%;"><a href="mx_mixed_lca.html">mx_mixed_lca</a></td>
+<td>Estimate mixed data latent class analysis using OpenMx</td></tr>
+<tr><td style="width: 25%;"><a href="mx_mixture.html">mx_mixture</a></td>
+<td>Estimate mixture models using OpenMx</td></tr>
+<tr><td style="width: 25%;"><a href="mx_profiles.html">mx_profiles</a></td>
+<td>Estimate latent profile analyses using OpenMx</td></tr>
+<tr><td style="width: 25%;"><a href="mx_switch_labels.html">mx_switch_labels</a></td>
+<td>Switch LCA Class Labels</td></tr>
+</table>
+
+<h2><a id="N">-- N --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="nodes.html">nodes</a></td>
+<td>Extract nodes from sem_graph</td></tr>
+<tr><td style="width: 25%;"><a href="nodes.html">nodes&lt;-</a></td>
+<td>Extract nodes from sem_graph</td></tr>
+</table>
+
+<h2><a id="P">-- P --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="paste2.html">paste2</a></td>
+<td>Concatenate Strings while omitting NA</td></tr>
+<tr><td style="width: 25%;"><a href="plas_depression.html">plas_depression</a></td>
+<td>Simulated depression data</td></tr>
+<tr><td style="width: 25%;"><a href="plot_bivariate.html">plot_bivariate</a></td>
+<td>Create correlation plots for a mixture model</td></tr>
+<tr><td style="width: 25%;"><a href="plot_density.html">plot_density</a></td>
+<td>Create density plots for mixture models</td></tr>
+<tr><td style="width: 25%;"><a href="plot_prob.html">plot_prob</a></td>
+<td>Plot categorical variable probabilities</td></tr>
+<tr><td style="width: 25%;"><a href="plot_profiles.html">plot_profiles</a></td>
+<td>Create latent profile plots</td></tr>
+<tr><td style="width: 25%;"><a href="plot_profiles.html">plot_profiles.default</a></td>
+<td>Create latent profile plots</td></tr>
+<tr><td style="width: 25%;"><a href="pmc_srmr.html">pmc_srmr</a></td>
+<td>Predictive Model Comparison</td></tr>
+<tr><td style="width: 25%;"><a href="predict_class.html">predict_class</a></td>
+<td>Predict Class Membership</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.character</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.dagitty</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.default</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.lavaan</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.mplus.model</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.mplusObject</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="prepare_graph.html">prepare_graph.MxModel</a></td>
+<td>Prepare graph data</td></tr>
+<tr><td style="width: 25%;"><a href="pseudo_class.html">pseudo_class</a></td>
+<td>Estimate an Auxiliary Model using the Pseudo-Class Method</td></tr>
+<tr><td style="width: 25%;"><a href="pseudo_class.html">pseudo_class.MxModel</a></td>
+<td>Estimate an Auxiliary Model using the Pseudo-Class Method</td></tr>
+</table>
+
+<h2><a id="R">-- R --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="run_lavaan.html">run_lavaan</a></td>
+<td>Run as lavaan model</td></tr>
+<tr><td style="width: 25%;"><a href="run_mx.html">run_mx</a></td>
+<td>Run as OpenMx model with sensible defaults</td></tr>
+</table>
+
+<h2><a id="S">-- S --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="if_edit.html">show_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">show_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_cov</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_fixed</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_fixed_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_fixed_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_latent</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_load</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_neg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_neg_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_neg_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_nonsig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_nonsig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_nonsig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_obs</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_pos</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_pos_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_pos_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_reg</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_sig</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_sig_edges</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_sig_nodes</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="if_edit.html">size_var</a></td>
+<td>Conditionally edit a sem_graph object</td></tr>
+<tr><td style="width: 25%;"><a href="skew_kurtosis.html">skew_kurtosis</a></td>
+<td>Calculate skew and kurtosis</td></tr>
+<tr><td style="width: 25%;"><a href="syntax.html">syntax</a></td>
+<td>Extract syntax from tidy_sem</td></tr>
+<tr><td style="width: 25%;"><a href="syntax.html">syntax&lt;-</a></td>
+<td>Extract syntax from tidy_sem</td></tr>
+</table>
+
+<h2><a id="T">-- T --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="table_cors.html">table_cors</a></td>
+<td>Extract correlation tables</td></tr>
+<tr><td style="width: 25%;"><a href="table_fit.html">table_fit</a></td>
+<td>Print model fit table formatted for publication</td></tr>
+<tr><td style="width: 25%;"><a href="table_prob.html">table_prob</a></td>
+<td>Results table in probability scale</td></tr>
+<tr><td style="width: 25%;"><a href="table_results.html">table_results</a></td>
+<td>Print results table formatted for publication</td></tr>
+<tr><td style="width: 25%;"><a href="tidy_sem.html">tidy_sem</a></td>
+<td>Create a tidy_sem object</td></tr>
+</table>
+
+<h2><a id="W">-- W --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="wald_test.html">wald_test</a></td>
+<td>Wald Test for Linear Hypotheses</td></tr>
+</table>
+
+<h2><a id="Z">-- Z --</a></h2>
+
+<table style="width: 100%;">
+<tr><td style="width: 25%;"><a href="zegwaard_carecompass.html">zegwaard_carecompass</a></td>
+<td>Caregiver Compass Data</td></tr>
+</table>
+</div></body></html>

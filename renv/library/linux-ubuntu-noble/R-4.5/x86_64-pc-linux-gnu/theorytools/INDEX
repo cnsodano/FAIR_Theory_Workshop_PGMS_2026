@@ -1,0 +1,25 @@
+add_readme_fair_theory
+                        Add Readme File
+add_significance        Add Significance Asterisks
+add_theory_file         Add Theory File
+add_to_pkgdown          Add webexercises helper files to pkgdown
+add_zenodo_json         Add 'Zenodo' JSON File
+code                    Code Text Data
+create_fair_theory      Create FAIR Theory Repository
+derive_formula          Derive Formulae From Augmented DAG
+download_huggingface    Download 'Hugging Face' Model
+download_theory         Download FAIR Theory
+filter_conditional_independencies
+                        Filter Conditional Independencies
+get_embeddings          Get Vector Embeddings (uses Python)
+lsac                    Synthetic Data: Longitudinal Study of
+                        Australian Children
+mottistefanidi2012      Adaptation of Adolescent Immigrants in Greece
+prune_dag               Prune DAG Based on Adjustment Sets
+quizz                   Create a Quiz
+select_controls         Select Covariate Adjustment Sets from Data
+similarity_cosine       Cosine Similarity
+similarity_stringdist   String Similarity
+simulate_data           Simulate Data from DAG
+use_webex_vignette      Create a webexercises vignette
+webex_vignette          Create Vignette with webexercises Support

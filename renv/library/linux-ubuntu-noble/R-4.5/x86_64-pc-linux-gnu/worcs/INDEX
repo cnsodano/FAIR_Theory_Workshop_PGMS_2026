@@ -1,0 +1,49 @@
+add_endpoint            Add endpoint to WORCS project
+add_license_file        Add License File to Project
+add_manuscript          Add Rmarkdown manuscript
+add_preregistration     Add Rmarkdown preregistration
+add_recipe              Add Recipe to Generate Endpoints
+add_synthetic           Add synthetic data to WORCS project
+add_targets             Add targets to WORCS Project
+add_testthat            Add testthat to WORCS Project
+check_endpoints         Check endpoints in WORCS project
+check_worcs             Evaluate project with respect to WORCS
+                        checklist
+check_worcs_installation
+                        Check worcs dependencies
+cite_all                Comprehensive citation Knit function for
+                        'RStudio'
+cite_essential          Essential citations Knit function for 'RStudio'
+closed_data             Use closed data in WORCS project
+data_label              Label factor variables using metadata
+data_unlabel            Drop value labels
+descriptives            Describe a dataset
+export_project          Export project to .zip file
+git_ignore              Modify .gitignore file
+git_release_publish     Publish a Release on 'GitHub'
+git_remote_connect      Connect to Existing 'GitHub' Repository
+git_remote_create       Create a New 'GitHub' Repository
+git_update              Add, commit, and push changes.
+git_user                Set global 'Git' credentials
+github_action_check_endpoints
+                        Set up GitHub Actions to Check Endpoints
+has_git_user            Check whether global 'Git' credentials exist
+list_endpoints          List endpoints in WORCS project
+load_data               Load WORCS project data
+load_entrypoint         Load project entry points
+make_codebook           Create codebook for a dataset
+notify_synthetic        Notify the user when synthetic data are being
+                        used
+open_data               Use open data in WORCS project
+remove_endpoint         Remove endpoint from WORCS project
+reproduce               Reproduce WORCS Project
+skew_kurtosis           Calculate skew and kurtosis
+snapshot_endpoints      Snapshot endpoints in WORCS project
+synthetic               Generate synthetic data
+worcs_badge             Add WORCS badge to README.md
+worcs_checklist         WORCS checklist
+worcs_path              Specify File Path Relative to WORCS Project
+                        Directory
+worcs_project           Create new WORCS project
+worcs_root              Return Absolute File Path of WORCS Project
+                        Directory
